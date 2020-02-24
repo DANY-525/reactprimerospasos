@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+
+.logica{
+
+  height: 300px;
+  width: 300px;
+  border:2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:center;
+
+
+}
+.app{
+
+
+
+
+  min-height: 1000vh;
+  background:rgb(90, 159, 182);
+  display: flex;
+  justify-content: space-around;
+
+
+
+}

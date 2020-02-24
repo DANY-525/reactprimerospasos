@@ -1,24 +1,20 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Logica from './Logica';
 
 function App() {
+
+  const sarHello = () => {
+
+    console.log("hello here");
+  } 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+
+    <Logica name ="Dev Ed" />
+     <Logica name ="jhon snow" />
+     <Logica name ="daniel Saavedra" />
     </div>
   );
 }
